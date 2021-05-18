@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -69,12 +71,6 @@ p {
     width: 100%;
 }
 
-.img-responsive {
-    max-width: 100%;
-    width: 100%;
-}
-
-
 /* HEADER */
 
 .header-home {
@@ -143,7 +139,6 @@ p {
 .cta-btn:hover {
     transform: scale(.95);
 }
-
 
 /* MOBILE MENÚ */
 
@@ -231,3 +226,57 @@ p {
         margin-top: 2rem;
     }
 }
+
+/*Input*/
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    min-height: 40vh;
+  }
+  
+  .contact-form-title {
+    font-family:'Quicksand', sans-serif;
+    font-size: 4rem; 
+  }
+  
+  .contact-form-input {
+    width: 300px;
+    height: 3.5vh;
+    margin: .5rem 0;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    border: 3px solid #B03A2E;
+    border-radius: 5px;
+  }
+  
+  .contact-form-input::placeholder {
+    font-family: sans-serif;
+    color: #B03A2E;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+
+.primary-button {
+    font-family:'Quicksand', sans-serif;
+    font-size: 2rem; 
+    color: #EFEAF2;
+    background-color: #566573;
+    margin: 0;
+    border-radius: 4px;
+    border: none;
+    padding: 0 2.5rem;
+    min-height: 50px;
+    transition: all 200ms;
+    cursor: pointer;
+  }
+  
+  .primary-button:hover {
+    filter: brightness(0.95);
+  }
+  
