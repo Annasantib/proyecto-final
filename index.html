@@ -1,12 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil</title>
-</head>
-<body>
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,16 +31,19 @@
               </p>
             </div>
           </div>
-          <form class="contact-form">
+          <form id="formulario" class="contact-form">
             <h1 class="contact-form-title">¡Si tienes dudas no dudes en contactarme!</h1>
-            <input class="contact-form-input" placeholder="Ingresa tu nombre" type="text" name="name">
-            <input class="contact-form-input" placeholder="Ingresa tu correo" type="email" name="mail">
-            <input class="contact-form-input" placeholder="Ingresa tu número" type="number" name="number">
+            <p id="formulario__mensaje_error" class="formulario__mensaje_error">Tienes un error en el formulario, complete los campos.</p>
+            <p id="formulario__mensaje_exito" class="formulario__mensaje_exito">Su mensaje ha sido enviado, muchas gracias por contactarnos!</p>
+            <input id="grupo__name" class="contact-form-input" placeholder="Ingresa tu nombre" type="text" name="name">
+            <input id="grupo__mail" class="contact-form-input" placeholder="Ingresa tu correo" type="email" name="mail">
+            <input id="grupo__number" class="contact-form-input" placeholder="Ingresa tu número" type="number" name="number">
             <button class="primary-button" type="submit">Enviar</button>
           </form>
         </section>
         <footer class="footer">
           Derechos Reservados
         </footer>
+        <script type="text/javascript" src="javascript/javascript.js"></script>
   </body>
 </html>
