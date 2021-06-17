@@ -45,13 +45,12 @@
 .banner {
   background-color: var(--light-text-color);
   height: 100vh;
-  width: 100vh;
 }
 
 .banner-image {
   width: 100%;
   height: 100%;
-  background: url('https://i.blogs.es/3e6787/genshin-impact-cbt-2-scaled-2/1366_2000.jpg');
+  background: url('https://pl4yers.com/wp-content/uploads/2020/12/genshin-impact-conseguir-protogemas-facil-2048x1152.jpg');
   background-size: 100% 100%;
   background-repeat: repeat-y;
   background-repeat: repeat-x;
@@ -60,6 +59,10 @@
   justify-content: flex-start;
   align-items: flex-start;
   padding: 2rem;
+}
+
+.contact{
+  margin: 3rem;
 }
 
 .contact-header {
@@ -74,7 +77,8 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 2.5rem;
-  padding: 3rem;
+  color: #AED6F1;
+  padding: 4rem;
 } 
 
 .contact-header-desc {
@@ -91,6 +95,7 @@
   width: 100%;
   min-height: 40vh;
   margin: 3rem;
+  
 }
 
 .contact-form-title {
@@ -154,11 +159,13 @@
 
 /* estilos pagina add*/
 
+
 .title-service{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 2.5rem;
     padding: 3rem;
+    color: var(--dark-text-color);
 } 
 
 .box-services{
@@ -166,6 +173,11 @@
   padding: 3rem;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
+  color: var(--primary-color)
+}
+
+.img-responsive{
+  border-radius: 2rem;
 }
 
 .contenedor{
@@ -180,19 +192,24 @@
 }
 
 .formulario__mensaje_error {
+  font-family: 'Montserrat', sans-serif;
 	height: 45px;
 	line-height: 45px;
-	background: #F66060;
+	color: #EA5E66;
+  text-shadow: 2px 2px 5px #ACA7A7;
+  font-weight: 900;
 	padding: 0 15px;
 	border-radius: 3px;
 	display: none;
 }
 
 .formulario__mensaje_exito {
+  font-family: 'Montserrat', sans-serif;
 	height: 45px;
 	line-height: 45px;
-	background: #288617;
-  color: #ffffff;
+  color:#86DA9F;
+  text-shadow: 2px 2px 5px #ACA7A7;
+  font-weight: 900;
 	padding: 0 15px;
 	border-radius: 3px;
 	display: none;
@@ -211,3 +228,4 @@
 .formulario__grupo-correcto {
   border: 3px solid #288617;
 }
+
